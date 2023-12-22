@@ -170,10 +170,6 @@ header {
     background-color: var(--filter-bg-color);
 }
 
-.filter-button .fa-solid {
-    font-size: 20px;
-}
-
 .filter-text {
     font-size: 17px;
     font-weight: 700;
