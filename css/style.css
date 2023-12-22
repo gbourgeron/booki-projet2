@@ -143,6 +143,40 @@ header {
 }
 
 /* Filter-bar */
+.filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 46px;
+    padding: 0 19px;
+    border: 2px solid var(--grey-tint2);
+    border-radius: 25px;
+}
+
+.filter-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filter-button .fa-solid {
+    font-size: 20px;
+}
+
+.filter-text {
+    font-size: 17px;
+    font-weight: 700;
+}
 
 /* Info-bar */
 .info-bar {
