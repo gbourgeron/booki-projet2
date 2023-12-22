@@ -362,6 +362,35 @@ header {
     font-size: 16px;
     font-weight: 700;
 }
+/******* Activites end ***********/
+
+/****** Footer ***********/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+}
+
+.footer-section {
+    width: 33%;
+    padding: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer-section ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer-section li {
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
