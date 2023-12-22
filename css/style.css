@@ -7,6 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --grey-tint2: #D9D9D9;
 }
 
 .fa-solid {
@@ -60,6 +61,39 @@ header {
     border-top: 2px solid var(--main-color);
 }
 /****** Header's end ***********/
+
+/****** Find and Filter ***********/
+.info-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 22px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.infobar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border: 1px solid var(--grey-tint2);
+    border-radius: 50%;
+}
+
+/****** Find and filter end ***********/
 
 .section-title {
     margin: 0;
