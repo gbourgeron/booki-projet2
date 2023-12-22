@@ -79,6 +79,7 @@ header {
     gap: 35px;
 }
 
+/* Headline */
 .headline {
     display: flex;
     flex-direction: column;
@@ -137,7 +138,7 @@ header {
     cursor: pointer;
 }
 
-.search-bar .switch-1 {
+.switch-1 {
     display: none;
     color: white;
 }
@@ -201,6 +202,7 @@ header {
 .section-title {
     margin: 0;
     font-size: 22px;
+    font-weight: 700;
 }
 
 .card {
@@ -214,8 +216,17 @@ header {
     object-fit: cover;
 }
 
+.card-content {
+    padding: 0 10px;
+}
+
 .card-title {
     font-size: 16px;
+    font-weight: 700;
+}
+
+.card-subtitle {
+    font-size: 14px;
 }
 
 .euro {
@@ -241,7 +252,40 @@ header {
 
 /****** Hebergements ***********/
 .hebergements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 65%;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hebergements-cards a {
+    width: 100%;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin-bottom: 5px;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
 }
 
 /****** Populaires ***********/
@@ -288,7 +332,7 @@ header {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
+/****** Hebergements and Populaires end ***********/
 
 
 
