@@ -204,6 +204,7 @@ header {
 }
 
 .card {
+    display: flex;
     background-color: white;
     border-radius: 20px;
     padding: 5px;
@@ -215,7 +216,7 @@ header {
 }
 
 .card-content {
-    padding-left: 10px;
+    padding: 0 10px;
 }
 
 .card-title {
@@ -267,6 +268,7 @@ header {
 }
 
 .hebergements-cards .card {
+    flex-direction: column;
     height: 100%;
 }
 
@@ -282,8 +284,11 @@ header {
     margin-bottom: 7px;
 }
 
-.hebergements-cards .card-subtitle {
-    margin-bottom: 5px;
+.hebergements-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 /****** Populaires ***********/
@@ -564,12 +569,12 @@ footer {
     /* Hebergements */
     .hebergements {
         order: 1;
-        gap: 15px;
+        gap: 25px;
     }
 
     .hebergements-cards {
         flex-direction: column;
-        gap: 15px;
+        gap: 25px;
     }
 
     /* Activites */
