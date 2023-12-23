@@ -518,6 +518,18 @@ footer {
     }
 
     /* Cards */
+    .hebergements-and-populaires {
+        gap: 15px;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0;
+    }
+
+    .hebergements-and-populaires section.hebergements {
+        background-color: initial;
+    }
+
     .populaires {
         order: 0;
         margin-top: 0;
