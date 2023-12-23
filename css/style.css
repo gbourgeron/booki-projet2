@@ -352,6 +352,7 @@ header {
 .activites-cards .card {
     display: flex;
     flex-direction: column;
+    height: 100%;
     padding: 0;
 }
 
@@ -363,6 +364,9 @@ header {
 }
 
 .activites-cards h3 {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
     padding: 20px 19px;
     font-size: 16px;
     font-weight: 700;
@@ -441,6 +445,9 @@ footer {
         width: 30%;
     }
 
+    .activites-cards img {
+        height: 200px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
