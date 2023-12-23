@@ -345,10 +345,13 @@ header {
     gap: 30px;
 }
 
+.activites-cards a {
+    width: 100%;
+}
+
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-    width: 25%;
     padding: 0;
 }
 
@@ -530,12 +533,32 @@ footer {
         background-color: initial;
     }
 
+    /* Populaires */
     .populaires {
         order: 0;
         margin-top: 0;
     }
 
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    /* Hebergements */
     .hebergements {
         order: 1;
+    }
+
+    .hebergements-cards {
+        flex-direction: column;
+    }
+
+    /* Activites */
+    .activites-cards {
+        flex-direction: column;
     }
 }
