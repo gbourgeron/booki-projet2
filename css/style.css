@@ -213,7 +213,7 @@ header {
 }
 
 .card-content {
-    padding: 0 10px;
+    padding-left: 10px;
 }
 
 .card-title {
@@ -396,6 +396,15 @@ footer {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+@media (min-width: 1024px) and (max-width:1184px) {
+    .hebergements-cards .card-content {
+        padding-left: 4px;
+    }
+    .hebergements .card-title {
+        font-size: 13px;
+    }
+}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
