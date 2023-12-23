@@ -539,9 +539,19 @@ footer {
         margin-top: 0;
     }
 
+    .populaires-title {
+        margin-bottom: 15px;
+    }
+
     .populaires-cards {
         display: flex;
         flex-direction: column;
+        gap: 15px;
+    }
+
+    .populaires-cards 
+    .card {
+        margin-top: 0;
     }
 
     .populaires-cards a {
@@ -551,10 +561,12 @@ footer {
     /* Hebergements */
     .hebergements {
         order: 1;
+        gap: 15px;
     }
 
     .hebergements-cards {
         flex-direction: column;
+        gap: 15px;
     }
 
     /* Activites */
