@@ -1,4 +1,6 @@
-/****** General ***********/
+/*-----------------*/
+/*     General     */
+/*_________________*/
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -42,7 +44,10 @@ main {
     gap: 30px;
 }
 
-/****** Header ***********/
+
+/*-----------------*/
+/*     Header      */
+/*_________________*/
 header {
     display: flex;
     justify-content: space-between;
@@ -75,9 +80,14 @@ header {
     display: block;
     padding-top: 16px;
 }
-/****** Header's end ***********/
+/*--------------------*/
+/*     Header END     */
+/*____________________*/
 
-/****** Find and Filter ***********/
+
+/*--------------------*/
+/*     Info group     */
+/*____________________*/
 .info-group {
     display: flex;
     flex-direction: column;
@@ -173,6 +183,7 @@ header {
 }
 
 .filter-button:hover {
+    cursor: pointer;
     background-color: var(--filter-bg-color);
 }
 
@@ -198,9 +209,13 @@ header {
     border: 1px solid var(--grey-tint2);
     border-radius: 50%;
 }
+/*-----------------------*/
+/*     Info group END    */
+/*_______________________*/
 
-/****** Find and filter end ***********/
-
+/*---------------------------------------*/
+/*     Common CSS for cards sections     */
+/*_______________________________________*/
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -239,8 +254,14 @@ header {
 .neutral-star {
     color: var(--main-bg-color)
 }
+/*------------------------------------------*/
+/*     Common CSS for cards sections END     */
+/*__________________________________________*/
 
-/****** Hebergements And Populaires ***********/
+
+/*-------------------------------------*/
+/*     Hebergements and Populaires     */
+/*_____________________________________*/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -341,9 +362,14 @@ header {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-/****** Hebergements and Populaires end ***********/
+/*-----------------------------------------*/
+/*     Hebergements and Populaires END     */
+/*_________________________________________*/
 
-/****** Activites ***********/
+
+/*-------------------*/
+/*     Activites     */
+/*___________________*/
 .activites {
     display: flex;
     flex-direction: column;
@@ -382,9 +408,13 @@ header {
     font-size: 16px;
     font-weight: 700;
 }
-/******* Activites end ***********/
+/*-----------------------*/
+/*     Activites END     */
+/*_______________________*/
 
-/****** Footer ***********/
+/*----------------*/
+/*     Footer     */
+/*________________*/
 footer {
     display: flex;
     justify-content: space-between;
@@ -411,12 +441,21 @@ footer {
     font-size: 16px;
     font-weight: 400;
 }
+/*--------------------*/
+/*     Footer END     */
+/*____________________*/
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
+/*************************/
+/***** Media queries *****/
+/*************************/
+
+/*--------------------------------------------*/
+/*               Medium devices               */
+/*     (tablets, less/ equal than 1024px)     */
+/*____________________________________________*/
 @media (max-width: 1024px) {
     .filter-bar {
         flex-direction: column;
@@ -457,7 +496,10 @@ footer {
     }
 }
 
-/* Small devices (phones, less than 768px) */
+/*-----------------------------------*/
+/*           Small devices           */
+/*     (phones, less than 768px)     */
+/*___________________________________*/
 @media (max-width: 767.98px) {
     .main-container {
         padding: 0;
