@@ -538,11 +538,16 @@ footer {
         border-bottom: 2px solid var(--main-color);
     }
     
-    /* Infos */
+    /* Infos group */
     .info-group {
         align-items: center;
         padding: 0 20px;
         margin-bottom: 30px;
+    }
+
+    /* Headline */
+    .main-title, .text {
+        text-align: center;
     }
 
     /* Search */
