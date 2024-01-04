@@ -63,13 +63,17 @@ header {
 .navlinks li {
     list-style-type: none;
     font-size: 16px;
-    padding-top: 16px;
     border-top: 2px solid transparent;
 }
 
 .navlinks li:hover {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
+}
+
+.navlinks a {
+    display: block;
+    padding-top: 16px;
 }
 /****** Header's end ***********/
 
