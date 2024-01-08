@@ -664,3 +664,13 @@ footer {
         width: 100%;
     }
 }
+
+/*-----------------------------------*/
+/*           XSmall devices          */
+/*         (less than 325px)         */
+/*___________________________________*/
+@media (max-width: 325px) {
+    .filter-text {
+        font-size: 12px;
+    }
+}
