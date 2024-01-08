@@ -207,6 +207,10 @@ header {
     gap: 10px;
 }
 
+.info-bar .text {
+    text-align: left;
+}
+
 .info-bar .fa-info {
     display: flex;
     justify-content: center;
