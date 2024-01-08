@@ -139,6 +139,10 @@ header {
     border-right: none;
 }
 
+::placeholder {
+    color: black;
+}
+
 .search-bar button[type=submit] {
     padding: 0 16px;
     font-size: 18px;
