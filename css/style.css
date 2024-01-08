@@ -164,11 +164,18 @@ header {
     display: flex;
     align-items: center;
     gap: 15px;
+    width: 100%;
 }
 
 .filters {
     display: flex;
-    gap: 15px;
+    gap: 10px;
+}
+
+.filters-x2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .filter-button {
@@ -177,6 +184,7 @@ header {
     align-items: center;
     gap: 10px;
     height: 46px;
+    width: 100%;
     padding: 0 19px;
     border: 2px solid var(--grey-tint2);
     border-radius: 25px;
@@ -573,14 +581,9 @@ footer {
 
     /* Filters */
     .filters {
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
-    }
-
-    .filter-button {
-        flex: 1;
-        min-width: 150px;
-        max-width: 230px;
+        width: 100%;
     }
 
     .filter-text {
