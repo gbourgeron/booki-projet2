@@ -203,7 +203,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20px;
+    min-width: 20px;
     height: 20px;
     font-size: 11px;
     border: 1px solid var(--grey-tint2);
