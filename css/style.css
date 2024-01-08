@@ -462,6 +462,10 @@ footer {
         align-items: flex-start;
     }
 
+    .filter-text {
+        font-size: 16px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -577,6 +581,10 @@ footer {
         flex: 1;
         min-width: 150px;
         max-width: 230px;
+    }
+
+    .filter-text {
+        font-size: 14px;
     }
 
     /* Cards */
